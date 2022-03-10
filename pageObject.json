@@ -1,0 +1,21 @@
+import { By,WebDriver } from "selenium-webdriver"
+import { basePage} from "../qa_groupThree";
+
+ export class petcostore extends basePage {
+    driver: WebDriver
+    url: string = "https://www.petco.com/shop/en/petcostore";
+ }
+   
+ var URL: {
+    new (url: string | URL, base?: string | URL): URL;
+    prototype: URL;
+    createObjectURL(obj: Blob | MediaSource): string;
+    revokeObjectURL(url: string): void;
+}
+    
+    function id(_arg0: string) {
+        throw new Error("Function not implemented.");
+    }
+
+
+    function (Missing: any);(_arg0: any, arg1: any): any
